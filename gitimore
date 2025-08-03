@@ -1,0 +1,30 @@
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if you ever use them)
+node_modules/
+dist/
+build/
+
+# Python compiled files (if backend is added later)
+__pycache__/
+*.py[cod]
+*.env
+*.log
+
+# React/Vite/Next.js artifacts (if frontend evolves)
+.next/
+out/
+.vite/
+.cache/
+
+# Secrets and environment configs
+.env
+.env.local
+.env.production
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
